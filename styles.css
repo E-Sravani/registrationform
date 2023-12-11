@@ -1,0 +1,48 @@
+/* App.css */
+body{
+background-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/1400/4e0cc328008799.56e41b35c50a5.gif);
+background-size: 100%;
+background-position: cover;
+}
+.registerbutton{
+    display: grid; 
+    grid-template-rows: max-content;
+    /* align-items: center;  */
+}
+.app {
+    display: flex; 
+   flex-direction: column;
+   align-items: center;
+   margin-top: 150px;
+   height: 350px;
+   width: 500px;
+  border: solid black 3px;
+    
+   
+ }
+ 
+ label {
+   margin: 10px 0;
+   }
+ 
+ button {
+   margin: 5px;
+   width: 400px;
+   height: 50px;
+   color: white;
+background-color: black;
+   
+ }
+ button:hover {
+    background-color: aqua;
+}
+ .username{
+    margin: 5px;
+    width: 400px;
+    height: 50px;
+ }
+ .text{
+    margin: 5px;
+    width: 400px;
+    height: 50px; 
+ }
